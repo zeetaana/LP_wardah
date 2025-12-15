@@ -29,7 +29,8 @@ body{background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothi
 .site-header{
   position: fixed;
   top: 0;
-  z-index: 9999;               
+  z-index: 9999;   
+  width: 100%;            
   background: #ffffff;     
   border-bottom: 1px solid rgba(0,0,0,0.06);
 }
@@ -196,12 +197,6 @@ body{background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothi
 }
 
 /* 8. Navbar biar fixed-nya stabil (sticky lebih kuat) */
-.site-header {
-  position: sticky;
-  top: 0;
-  z-index: 200;
-}
-
 /* 9. Hapus spacing berlebih */
 .lead {
   margin-bottom: 10px;
